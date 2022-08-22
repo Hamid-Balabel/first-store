@@ -1,0 +1,152 @@
+/* start main css code */
+
+body{
+    background-color: #f4f4f4 ;
+    font-size: 16px;
+}
+.astrisk{
+    font-size: 30px;
+    position: absolute;
+    right:25px;
+    top:0px;
+    color: #D20707;
+}
+.login{
+    width:300px;
+    margin:100px auto;
+
+}
+
+.login input{
+    margin-bottom: 10px;
+}
+
+.navbar{
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+ .navbar-dark .navbar-nav .nav-link.active, 
+ .navbar-dark .navbar-nav .nav-link.show, 
+ .navbar-dark .navbar-nav .show>.nav-link,.dropdown-menu {
+
+    background-color: #3498db;
+}
+.dropdown-menu{
+    cursor: pointer;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    font-size: 1em;
+    min-width: 180px;
+}
+.dropdown-item{
+    color: #FFF;
+    padding: 10px 15px;
+}
+.navbar-brand{
+    font-size: 1em;
+}
+.form-control{
+    position: relative;
+}
+
+/* dashboard page */
+
+.home-stats .stat{
+    padding: 20px;
+    font-size: 15px;
+    color: #FFF;
+    border-radius: 10px;
+}
+.home-stats .stat a{
+    color: #FFF;
+}
+.home-stats .stat a:hover{
+    text-decoration: none;
+}
+.home-stats .st-members{
+    background-color: #3498db;
+}
+.home-stats .st-pending{
+    background-color: #c0392b;
+}
+.home-stats .st-items{
+    background-color: #d35400;
+}
+.home-stats .st-comments{
+    background-color: #8e44ad;
+}
+
+.home-stats .stat span{
+    display: block;
+    font-size: 50px;
+}
+
+.latest{
+    margin-top: 40px;
+}
+
+/* members page */
+h1{
+    font-size: 55px;
+    margin: 40px 0;
+}
+.show-pass{
+    position: absolute;
+    top: 10px;
+    right: -10px;
+}
+
+.main-table{
+    -webkit-box-shadow: 0 3px 10px #CCC;
+    -moz-box-shadow: 0 3px 10px #CCC;
+    box-shadow: 0 3px 10px #CCC;
+}
+
+.main-table td{
+    background-color: #FFF;
+    vertical-align: middle;
+}
+
+.main-table tr:first-child td{
+    background-color: #333;
+    color: #FFF;
+
+}
+
+.main-table .btn{
+    padding: 3px 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
